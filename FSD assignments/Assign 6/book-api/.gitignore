@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Other system-specific files
+*.swp
+
+# NPM package lock files (if you use Yarn, use `yarn.lock` instead)
+package-lock.json
+yarn.lock
