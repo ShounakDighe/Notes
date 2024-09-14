@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        /* Inline CSS for quick customizations */
+        .header-bg {
+            background-image: url('header-bg.jpg');
+            background-size: cover;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">
+        <img src="mitwpulogo.png" alt="MIT WPU Logo" class="logo-img">
+        MIT WPU
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#registration">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        <!-- Registration Form -->
+        <section id="registration" class="mb-5">
+            <h2>Student Registration Mit Wpu Pune</h2>
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Shounak Dighe" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="shounakdighe@mitwpu.edu.in" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select id="course" class="form-control" required>
+                        <option value="">Choose...</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="ai">Artificial Intelligence</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Information</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </section>
+
+        <!-- Courses Table -->
+        <section id="courses" class="mb-5">
+            <h2>Available Courses</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Course Name</th>
+                        <th>Description</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>B.Tech Computer Science and Engineering</td>
+                        <td> The B.Tech in Computer Science and Engineering at MIT-WPU focuses on teaching the fundamentals of hardware and software, algorithm analysis, and mathematics and science knowledge. The programme provides students with solid programming and engineering fundamentals as well as research and innovation skills in computer engineering. </td>
+                        <td>4 Years</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>B.Tech Computer Science and Engineering (Artificial Intelligence and Data Science)</td>
+                        <td>The CSE with a specialization in Artificial Intelligence & Data Science programme at MIT-WPU is designed to prepare students to tackle real-world challenges in the fields of machine learning, statistics, knowledge discovery, and data visualization using cutting-edge technologies such as statistics, big data analytics, machine learning, cognitive computing, and deep learning.</td>
+                        <td>4 Years</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>B.Tech Electrical and Computer Engineering</td>
+                        <td>Students in the B.Tech Electrical & Computer Engineering at MIT-WPU, learn about the concepts, technologies, hardware, and software used in the fields of telecommunications, electronics, and energy.</td>
+                        <td>4 Years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Information -->
+        <section id="contact" class="mb-5">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>Email: <a href="mailto:info@example.com">mitwpu.edu.com</a></li>
+                <li>Phone: <a href="tel:+1234567890">+91-99922299</a></li>
+                <li>Address: Mit Wpu, Kothrud, Pune, India</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mit Wpu. All rights reserved.</p>
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

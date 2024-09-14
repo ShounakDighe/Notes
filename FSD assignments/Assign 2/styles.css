@@ -1,0 +1,57 @@
+/* External CSS */
+
+/* Tag Selector */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Class Selector */
+.header-bg {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* ID Selector */
+#courses {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Border, Margin, Padding */
+.table {
+    border: 2px solid #dee2e6;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #6c757d;
+    margin-top: 20px;
+}
+
+/* Background Image and Position */
+.header-bg {
+    background-position: center;
+}
+
+/* External CSS */
+
+/* Styling for the logo */
+.logo-img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Centering the logo in the navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%; /* Make sure it takes the full width */
+}
